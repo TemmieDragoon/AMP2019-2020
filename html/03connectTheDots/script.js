@@ -33,8 +33,8 @@ function animate() {
 
   for (let i = 0; i < balls.length; i++) {
     context.lineTo(balls[i].position.dx, balls[i].position.dy);
-    context.fillStyle = "rgba(255,0,0,0.2)";
-    context.strokeStyle = "Silver";
+    context.fillStyle = "rgba(100,125,99,0.2)";
+    context.strokeStyle = "Black";
   }
 
   context.closePath();
